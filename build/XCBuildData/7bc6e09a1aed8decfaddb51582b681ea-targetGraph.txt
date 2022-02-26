@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Flix-Assignment1 in Flix-Assignment1, no dependencies
+Flix-Assignment1Tests in Flix-Assignment1, depends on:
+Flix-Assignment1 in Flix-Assignment1 (explicit)
+Flix-Assignment1UITests in Flix-Assignment1, depends on:
+Flix-Assignment1 in Flix-Assignment1 (explicit)

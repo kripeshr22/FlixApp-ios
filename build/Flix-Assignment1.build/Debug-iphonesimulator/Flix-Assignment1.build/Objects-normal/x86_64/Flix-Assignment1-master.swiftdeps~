@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)"
+options: "7c210285ad91bfaec743ad1cdc75c0a36a39d4994ee93a2203d801d0d6081829"
+build_start_time: [1645780347, 535300970]
+build_end_time: [1645780348, 456131935]
+inputs:
+  "/Users/kripeshranabhat/Desktop/Assignment1/Flix-Assignment1/Flix-Assignment1/AppDelegate.swift": [1645779192, 841748237]
+  "/Users/kripeshranabhat/Desktop/Assignment1/Flix-Assignment1/Flix-Assignment1/SceneDelegate.swift": [1645779192, 859025239]
+  "/Users/kripeshranabhat/Desktop/Assignment1/Flix-Assignment1/Flix-Assignment1/ViewController.swift": [1645779192, 861763477]

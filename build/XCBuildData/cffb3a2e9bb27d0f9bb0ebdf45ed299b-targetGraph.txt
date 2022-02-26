@@ -1,0 +1,26 @@
+Target dependency graph (8 targets)
+Alamofire in Pods, no dependencies
+AlamofireImage in Pods, depends on:
+Alamofire in Pods (explicit)
+Pods-Flix-Assignment1 in Pods, depends on:
+Alamofire in Pods (explicit)
+AlamofireImage in Pods (explicit)
+Flix-Assignment1 in Flix-Assignment1, depends on:
+Pods-Flix-Assignment1 in Pods (implicit dependency via file 'Pods_Flix_Assignment1.framework' in build phase 'Link Binary')
+Alamofire in Pods (implicit dependency via options '-framework Alamofire' in build setting 'OTHER_LDFLAGS')
+AlamofireImage in Pods (implicit dependency via options '-framework AlamofireImage' in build setting 'OTHER_LDFLAGS')
+Pods-Flix-Assignment1Tests in Pods, depends on:
+Pods-Flix-Assignment1 in Pods (explicit)
+Flix-Assignment1Tests in Flix-Assignment1, depends on:
+Flix-Assignment1 in Flix-Assignment1 (explicit)
+Pods-Flix-Assignment1Tests in Pods (implicit dependency via file 'Pods_Flix_Assignment1Tests.framework' in build phase 'Link Binary')
+Alamofire in Pods (implicit dependency via options '-framework Alamofire' in build setting 'OTHER_LDFLAGS')
+AlamofireImage in Pods (implicit dependency via options '-framework AlamofireImage' in build setting 'OTHER_LDFLAGS')
+Pods-Flix-Assignment1-Flix-Assignment1UITests in Pods, depends on:
+Alamofire in Pods (explicit)
+AlamofireImage in Pods (explicit)
+Flix-Assignment1UITests in Flix-Assignment1, depends on:
+Flix-Assignment1 in Flix-Assignment1 (explicit)
+Pods-Flix-Assignment1-Flix-Assignment1UITests in Pods (implicit dependency via file 'Pods_Flix_Assignment1_Flix_Assignment1UITests.framework' in build phase 'Link Binary')
+Alamofire in Pods (implicit dependency via options '-framework Alamofire' in build setting 'OTHER_LDFLAGS')
+AlamofireImage in Pods (implicit dependency via options '-framework AlamofireImage' in build setting 'OTHER_LDFLAGS')
