@@ -188,6 +188,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreGraphics;
 @import Foundation;
 @import UIKit;
 #endif
@@ -237,9 +238,42 @@ SWIFT_CLASS("_TtC16Flix_Assignment19MovieCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITableView;
-@class NSIndexPath;
 @class NSBundle;
+
+SWIFT_CLASS("_TtC16Flix_Assignment126MovieDetailsViewController")
+@interface MovieDetailsViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified backdropView;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified posterView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified titleLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified synopsisLabel;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC16Flix_Assignment113MovieGridCell")
+@interface MovieGridCell : UICollectionViewCell
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified PosterView;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UICollectionView;
+@class NSIndexPath;
+
+SWIFT_CLASS("_TtC16Flix_Assignment123MovieGridViewController")
+@interface MovieGridViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate>
+@property (nonatomic, weak) IBOutlet UICollectionView * _Null_unspecified collectionView;
+- (void)viewDidLoad;
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITableView;
+@class UIStoryboardSegue;
 
 SWIFT_CLASS("_TtC16Flix_Assignment120MoviesViewController")
 @interface MoviesViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
@@ -247,6 +281,7 @@ SWIFT_CLASS("_TtC16Flix_Assignment120MoviesViewController")
 - (void)viewDidLoad;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end

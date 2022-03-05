@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)"
 options: "57e3a72a2865e39529628e09d2127c30539f8f9e1457e92b1fa7b32c05ea3c0f"
-build_start_time: [1645853519, 610989093]
-build_end_time: [1645853519, 802227973]
+build_start_time: [1646380980, 52706003]
+build_end_time: [1646380980, 162922859]
 inputs:
   "/Users/kripeshranabhat/Desktop/Assignment1/Flix-Assignment1/Pods/AlamofireImage/Source/AFIError.swift": [1645853315, 767631769]
   "/Users/kripeshranabhat/Desktop/Assignment1/Flix-Assignment1/Pods/AlamofireImage/Source/Image.swift": [1645853315, 767774581]

@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		WLPZtF1+8e0hYerpn3eiEjDXhDY=
+		PE35Zz4IIBa2O3un1SFUN0glG5k=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -26,15 +26,27 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		qOi/pdIHIx3P3Kn97El517CPa5o=
+		sCfNbWx38ZYqTLLWzasgZcuQw9w=
+		</data>
+		<key>Base.lproj/Main.storyboardc/IX7-OX-Qpd-view-MhJ-MF-rSY.nib</key>
+		<data>
+		CuUEikjZ1yf/RpbSrkTjFifC0WE=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		1Lm8hHX2bx1fM7VP9nIUWIzqFQY=
+		+bHecUbFy7zyS6oWCB/OlrGijM8=
 		</data>
-		<key>Base.lproj/Main.storyboardc/UINavigationController-fKQ-lQ-17j.nib</key>
+		<key>Base.lproj/Main.storyboardc/UITabBarController-a2L-cV-7Dr.nib</key>
 		<data>
-		1LInlmlU1QK/++yGOH5vmAdOFPo=
+		DhUMLXzzCDCrB8BwdhxMYTWqN9A=
+		</data>
+		<key>Base.lproj/Main.storyboardc/UIViewController-IX7-OX-Qpd.nib</key>
+		<data>
+		x9vMTkAxvykj+qniEeebvsdLYKs=
+		</data>
+		<key>Base.lproj/Main.storyboardc/qV4-SF-Dru-view-tEd-gN-tdA.nib</key>
+		<data>
+		dHYHXxdeuJ1Zk0n4PC2R3Cc1XVs=
 		</data>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<data>
@@ -82,7 +94,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nUy9PfomGZbXHA4CVwS6WGPAgUzckbTEkDfm+5fJQio=
+			y1WWnpKuaw05nsbGK+1XuLC4bKFYHHxDGSNNnqF14YE=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -110,21 +122,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tVIqLIKIpd+aiagm5u0+B8edK1uAmW8Vn0yuuAhmO/w=
+			oLr35OWmwloOxJmA8jYY2otbEGSC03WfEzrbH06cVB0=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/IX7-OX-Qpd-view-MhJ-MF-rSY.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PGb0yrbUEvMgjRDdHiLhVKgpfZNIEysEF7m+9ZCjGCc=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			el4VfMJi8EA8dL4bNKhc3EsDER3YZuwZuG25XdqbnxE=
+			+/ajMnwYKKuCAjjzyhrvR+oEiUMVt5s+A2aiZ/d/t2E=
 			</data>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/UINavigationController-fKQ-lQ-17j.nib</key>
+		<key>Base.lproj/Main.storyboardc/UITabBarController-a2L-cV-7Dr.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xI3JQrHdFvEgSfVvW4lvPgfUCA3VgSoFA9JxPrsBNTY=
+			E+2YCBcS9wAdCyld1Ub7dK97PYBqzxUHqZjwQJbmk3g=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-IX7-OX-Qpd.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SbTh/2mGSgptux7y5bcNVHWHkvqNhrVDQwhk9l6XDFQ=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/qV4-SF-Dru-view-tEd-gN-tdA.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NpfFaf5H7BFtMvgDmV+wuIoaTyMlMcAlENvvgYyWbXE=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>

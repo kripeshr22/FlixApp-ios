@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)"
 options: "e5ab5e9422a53ba45284d18bd4db99f7d23d5b063ef0ee7da37f5de7eaca9930"
-build_start_time: [1645853363, 171592950]
-build_end_time: [1645853390, 259663105]
+build_start_time: [1646380979, 520678043]
+build_end_time: [1646380979, 903099060]
 inputs:
   "/Users/kripeshranabhat/Desktop/Assignment1/Flix-Assignment1/Pods/Alamofire/Source/AFError.swift": [1645853313, 443991661]
   "/Users/kripeshranabhat/Desktop/Assignment1/Flix-Assignment1/Pods/Alamofire/Source/Alamofire.swift": [1645853313, 447248935]
